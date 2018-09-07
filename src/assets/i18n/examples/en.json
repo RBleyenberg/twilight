@@ -1,0 +1,66 @@
+{
+  "dare.examples.menu.todos": "Todos",
+  "dare.examples.menu.stocks": "Stocks",
+  "dare.examples.menu.theming": "Theming",
+  "dare.examples.menu.auth": "Auth",
+  "dare.examples.todos.input": "I am going to...",
+  "dare.examples.todos.tooltip.add": "Add new todo",
+  "dare.examples.todos.tooltip.remove": "Remove done todos",
+  "dare.examples.todos.list": "Todo list",
+  "dare.examples.todos.example": "Todo example",
+  "dare.examples.todos.text1": "This is a classic",
+  "dare.examples.todos.text2": "todo",
+  "dare.examples.todos.text3":
+    "example with support for adding, toggling, removing and filtering of the todo items.",
+  "dare.examples.todos.text4": "State handling is implemented using",
+  "dare.examples.todos.text5":
+    "module and support for lazy loaded reducers (this is a lazy loaded feature module).",
+  "dare.examples.todos.text6":
+    "Todos are persisted into local storage so you should see your todos also on later visits when using the same browser.",
+  "dare.examples.todos.filter.all": "All",
+  "dare.examples.todos.filter.done": "Done",
+  "dare.examples.todos.filter.active": "Active",
+  "dare.examples.todos.filter.description": "Displaying",
+  "dare.examples.todos.filter.items": "todos",
+  "dare.examples.todos.filter.item": "todo",
+  "dare.examples.stocks.title": "Stock market",
+  "dare.examples.stocks.symbol": "Stock symbol",
+  "dare.examples.stocks.description":
+    "Please provide some valid stock market symbol like:",
+  "dare.examples.stocks.text1": "Stock market example shows how to implement",
+  "dare.examples.stocks.text2": "requests using",
+  "dare.examples.stocks.text3": "module.",
+  "dare.examples.stocks.text4":
+    "Updating symbol query with different symbol will emit action which updates state with loading flag (reducer) and triggers effect for retrieving of selected stock.",
+  "dare.examples.stocks.text5":
+    "Actions are debounced and every subsequent request will cancel previous one using",
+  "dare.examples.stocks.text6":
+    "Success or error actions are emitted on request completion. Loading spinner is removed and stock info or error message is displayed.",
+  "dare.examples.stocks.error1": "Stock",
+  "dare.examples.stocks.error2": "not found",
+  "dare.examples.theming.parent.title": "Theme scoping with nested components",
+  "dare.examples.theming.parent.description": "parent works!",
+  "dare.examples.theming.parent.text1":
+    "Theme styles are not imported in component's",
+  "dare.examples.theming.parent.text2": "property of",
+  "dare.examples.theming.parent.text3": "decorator but in the main",
+  "dare.examples.theming.parent.text4":
+    "file. Because of this, theme styles are",
+  "dare.examples.theming.parent.text5": "NOT",
+  "dare.examples.theming.parent.text6":
+    "scoped to the component automatically.",
+  "dare.examples.theming.parent.text7": "We have to use",
+  "dare.examples.theming.parent.text8": "specific",
+  "dare.examples.theming.parent.text9":
+    "selectors to prevent styles from leaking into child components. This can be achieved by using",
+  "dare.examples.theming.parent.text10":
+    "in css rules to enhance their specificity. For example checkout theme file of this component:",
+  "dare.examples.theming.child.title": "childs h1",
+  "dare.examples.theming.child.subtitle": "should be without style",
+  "dare.examples.theming.child.description": "child works!",
+  "dare.examples.auth.title": "Authenticated component",
+  "dare.examples.auth.description1":
+    "This component is only accessible for authenticated users",
+  "dare.examples.auth.description2":
+    "Logging out will cause user to be redirected to home screen if visiting route accessible only to authenticated users"
+}
